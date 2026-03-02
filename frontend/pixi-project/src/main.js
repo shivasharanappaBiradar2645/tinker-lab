@@ -76,3 +76,6 @@ const character = new PIXI.AnimatedSprite(frames);
 character.animationSpeed = 0.2;
 character.play();
 */
+
+
+//SPRINTSHEET LEARN THE EXTENSIONS
