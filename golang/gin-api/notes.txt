@@ -1,0 +1,8 @@
+type UserRepository interface {
+	CreateUser(ctx context.Context, name string, email string) (domain.User, error)
+	GetUser(ctx context.Context, id int32) (domain.User, error)
+	ListUsers(ctx context.Context) ([]domain.User, error)
+	DeleteUser(ctx context.Context, id int32) error
+}
+for service allowing multiple repos to exist
+

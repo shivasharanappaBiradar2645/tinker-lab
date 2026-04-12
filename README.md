@@ -1,11 +1,15 @@
 # tinker-lab
 
-This repository serves as a personal tinkering lab where I experiment with various technologies and programming concepts.
+A personal tinkering lab for experimenting with various technologies.
 
-## Project Folders:
+## Projects
 
-- **frontend/**: Contains frontend development projects, specifically a PixiJS learning project (`pixi-project`).
-- **golang/**: Houses various Go language projects including a Bubble Tea tutorial, a Chi framework tutorial, an RSS aggregator, and a website health checker.
-- **pb/**: Holds Python-based projects focused on Markov Chains and Hidden Markov Models.
-- **phpWeb/**: Contains experiments and learning exercises in PHP web development.
-- **rag/**: A project exploring Retrieval Augmented Generation concepts.
+- **[RSS Aggregator](./golang/rss-aggregator/)**: An RSS feed aggregator API.
+- **[Website Health Checker](./golang/websiteHealth/)**: A concurrent tool to monitor website uptime.
+- **[Telegram OCR Bot](./golang/telebot/)**: A Telegram bot that extracts text from images.
+- **[Bubble Tea TUI](./golang/bubbleTea-tutorial/)**: An interactive terminal UI built with Go.
+- **[Chi Web App](./golang/chi-tutorial/)**: A structured REST API template using the Chi router.
+- **[Fyne GUI](./golang/gui-fyne/)**: A desktop application prototype using the Fyne toolkit.
+- **[PixiJS Playground](./frontend/pixi-project/)**: A 2D animation experiment using PixiJS.
+- **[Markov Chains & HMM](./pb/)**: Probabilistic model implementations in Python.
+- **[PHP Learning Lab](./phpWeb/learn/)**: Scripts covering PHP web development fundamentals.
